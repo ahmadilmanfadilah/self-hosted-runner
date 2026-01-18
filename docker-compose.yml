@@ -1,0 +1,9 @@
+services:
+  github-runner:
+    build: .
+    container_name: gh-runner-auto
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+
+docker-compose.override.yml
+
+*.log
+*.tmp
+*.swp
+
+.DS_Store
+.vscode
+.idea
+
